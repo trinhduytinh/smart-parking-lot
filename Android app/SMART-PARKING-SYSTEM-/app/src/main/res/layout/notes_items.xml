@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/layout_note"
+        android:layout_width="378dp"
+        android:layout_height="152dp"
+        android:background="@drawable/sa9"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Biển số xe:"
+                android:textSize="25dp"></TextView>
+
+            <TextView
+                android:id="@+id/tv_bienso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="@integer/material_motion_duration_long_1"
+                android:padding="10dp"
+                android:text="Title"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/iv_action"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:src="@drawable/ic_baseline_more_vert_24"></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="CCCD:"
+                android:textSize="25dp"></TextView>
+
+            <TextView
+                android:id="@+id/tv_cccd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="@integer/material_motion_duration_long_1"
+                android:padding="10dp"
+                android:text="cccd"
+                android:textSize="20sp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Họ Tên:"
+                android:textSize="25dp"></TextView>
+
+            <TextView
+                android:id="@+id/tv_hoten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="@integer/material_motion_duration_long_1"
+                android:padding="10dp"
+                android:text="hoten"
+                android:textSize="15sp">
+
+            </TextView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical"
+             android:gravity="center_vertical"
+
+    android:padding="15dp"
+    android:background="@drawable/a2"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Bãi giữ xe thông minh"
+        android:textColor="#A81418"
+
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Đăng kí tài khoản"
+        android:textColor="#A81418"
+        ></TextView>
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New email"
+        android:textColorHint="@color/common_google_signin_btn_text_dark"
+        android:inputType="textEmailAddress"
+        android:layout_margin="10dp"
+        ></EditText>
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New password"
+        android:textColorHint="@color/common_google_signin_btn_text_dark"
+        android:inputType="textPassword"
+        android:layout_margin="10dp"
+        ></EditText>
+    <EditText
+        android:id="@+id/confim_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm password"
+        android:textColorHint="@color/common_google_signin_btn_text_dark"
+        android:inputType="textPassword"
+        android:layout_margin="10dp"
+        ></EditText>
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Sign up"
+        ></Button>
+
+</LinearLayout>
